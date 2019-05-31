@@ -1,0 +1,64 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx",
+    ".ts",
+    ".tsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "entry": "index.tsx",
+  "plugins": [
+    "react-static-plugin-typescript",
+    [
+      "/Users/aliavci/Documents/Codebase/defnesanat-client/node_modules/react-static-plugin-source-filesystem/node.api.js",
+      {
+        "location": "/Users/aliavci/Documents/Codebase/defnesanat-client/src/pages"
+      }
+    ],
+    "/Users/aliavci/Documents/Codebase/defnesanat-client/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/Users/aliavci/Documents/Codebase/defnesanat-client/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "/Users/aliavci/Documents/Codebase/defnesanat-client"
+  ],
+  "paths": {
+    "ROOT": "/Users/aliavci/Documents/Codebase/defnesanat-client",
+    "SRC": "/Users/aliavci/Documents/Codebase/defnesanat-client/src",
+    "DIST": "/Users/aliavci/Documents/Codebase/defnesanat-client/dist",
+    "ASSETS": "/Users/aliavci/Documents/Codebase/defnesanat-client/dist",
+    "PLUGINS": "/Users/aliavci/Documents/Codebase/defnesanat-client/plugins",
+    "TEMP": "/Users/aliavci/Documents/Codebase/defnesanat-client/tmp",
+    "ARTIFACTS": "/Users/aliavci/Documents/Codebase/defnesanat-client/artifacts",
+    "PUBLIC": "/Users/aliavci/Documents/Codebase/defnesanat-client/public",
+    "NODE_MODULES": "/Users/aliavci/Documents/Codebase/defnesanat-client/node_modules",
+    "EXCLUDE_MODULES": "/Users/aliavci/Documents/Codebase/defnesanat-client/node_modules",
+    "PACKAGE": "/Users/aliavci/Documents/Codebase/defnesanat-client/package.json",
+    "HTML_TEMPLATE": "/Users/aliavci/Documents/Codebase/defnesanat-client/dist/index.html",
+    "STATIC_DATA": "/Users/aliavci/Documents/Codebase/defnesanat-client/dist/staticData"
+  },
+  "siteRoot": "/",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}
