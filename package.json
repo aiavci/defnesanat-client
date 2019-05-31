@@ -10,19 +10,20 @@
     "serve": "serve dist -p 3000 -s"
   },
   "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "@material-ui/icons": "^3.0.2",
     "@reach/router": "^1.2.1",
     "axios": "^0.18.0",
+    "r-t-components": "0.0.3",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
+    "react-flexbox-grid": "^2.1.2",
+    "react-icons": "^3.6.1",
     "react-static": "^7.0.0",
     "react-static-plugin-reach-router": "^7.0.0",
     "react-static-plugin-sitemap": "^7.0.0",
     "react-static-plugin-source-filesystem": "^7.0.0",
-    "react-static-plugin-typescript": "^7.0.0",
-    "react-flexbox-grid": "^2.1.2",
-    "react-icons": "^3.6.1",
-    "r-t-components": "0.0.3",
-    "@material-ui/core": "^3.9.3"
+    "react-static-plugin-typescript": "^7.0.0"
   },
   "devDependencies": {
     "@types/node": "^10.12.23",
