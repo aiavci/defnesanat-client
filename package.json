@@ -21,7 +21,7 @@
     "react-static-plugin-typescript": "^7.0.0",
     "react-flexbox-grid": "^2.1.2",
     "react-icons": "^3.6.1",
-    "r-t-components": "0.0.2",
+    "r-t-components": "0.0.3",
     "@material-ui/core": "^3.9.3"
   },
   "devDependencies": {
